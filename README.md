@@ -2,22 +2,22 @@
 
 ## 1. Dönem
 
-### Mevlana
+### Mevlana Uygulaması
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/emirhneks/MobilUygulamalar11/tree/main/Mevlana)
 
-### Yaşam Döngüsü
+### Yaşam Döngüsü Uygulaması
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/emirhneks/MobilUygulamalar11/tree/main/YasamDongusu)
 
-### Uyarı İletişim Kutusu
+### Uyarı İletişim Kutusu Uygulaması
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/emirhneks/MobilUygulamalar11/tree/main/UyariIletisimKutusu)
 
-### Bilgi Saklama
+### Bilgi Saklama Uygulaması
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/emirhneks/MobilUygulamalar11/tree/main/BilgiSaklama)
 
-### Şehirler
+### Şehirler Uygulaması
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/emirhneks/MobilUygulamalar11/tree/main/Sehirler)
