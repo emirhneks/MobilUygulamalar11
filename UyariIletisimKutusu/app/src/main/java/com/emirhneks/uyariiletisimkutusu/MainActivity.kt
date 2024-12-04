@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "İşlem kaydedildi.", Toast.LENGTH_LONG).show()
         }
         alert.setNegativeButton("Hayır") { dialog, which ->
-            Toast.makeText(this, "İşlem İptal edildi.", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "İşlem iptal edildi.", Toast.LENGTH_LONG).show()
         }
         alert.show()
     }
