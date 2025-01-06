@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MobilFragment">
+
+    <TextView
+        android:id="@+id/txtMobilTeknolojiler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#3F51B5"
+        android:text="Mobil Teknolojiler"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtMobilTeknolojiler2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#3F51B5"
+        android:text="Emirhan Eksen"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/xamarin" />
+
+    <ImageView
+        android:id="@+id/kotlin"
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/kotlin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMobilTeknolojiler" />
+
+    <ImageView
+        android:id="@+id/flutter"
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:src="@drawable/flutter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kotlin" />
+
+    <ImageView
+        android:id="@+id/reactNative"
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:src="@drawable/reactnative"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flutter" />
+
+    <ImageView
+        android:id="@+id/ionic"
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:src="@drawable/ionic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reactNative" />
+
+    <ImageView
+        android:id="@+id/xamarin"
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:src="@drawable/xamarin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ionic" />
+</androidx.constraintlayout.widget.ConstraintLayout>
